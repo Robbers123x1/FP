@@ -32,6 +32,6 @@ Para ejecutar las pruebas de Selenium a través de Nightwatch, sirve la aplicaci
 npm run serve # inicia el servidor web en localhost: 8080
 Entonces necesitarás:
 1. Tener un servidor Selenium ejecutándose localmente en el puerto 4444.
-  o Ejecutar: npm ejecutar test-browser
+  + Ejecutar: npm ejecutar test-browser
 2. O bien, instale y ejecute SauceConnect.
-  o Ejecutar: sc -u <NOMBRE DE USUARIO> -k <ACCESS_KEY> (ver .travis.yml para conocer los valores)
+  + Ejecutar: sc -u <NOMBRE DE USUARIO> -k <ACCESS_KEY> (ver .travis.yml para conocer los valores)
