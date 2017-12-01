@@ -20,3 +20,9 @@ Aquí teniu algunes coses a tenir en compte si teniu problemes per crear el paqu
 • Assegureu-vos que teniu la versió correcta del node, npm i nvm. Podeu trobar la versió que es prova en Travis CI buscant.
 node --version
 npm --versió
+
+# Prova Unitària
+Registreu fitxers de prova d'unitats nous a prova / index.js. Les proves s'escriuen amb cinta adhesiva.
+Executeu les proves de la unitat a través de: prova de npm
+Per a les proves locals sense navegador sense cap executar, executeu el navegador de prova (requereix que s'instal·li el seleni), es pot fer amb npm executar selenium-install)
+La realització de proves unitàries a través de la prova npm requereix, com a mínim, el node v7.0.0
