@@ -26,3 +26,12 @@ Registreu fitxers de prova d'unitats nous a prova / index.js. Les proves s'escri
 Executeu les proves de la unitat a través de: prova de npm
 Per a les proves locals sense navegador sense cap executar, executeu el navegador de prova (requereix que s'instal·li el seleni), es pot fer amb npm executar selenium-install)
 La realització de proves unitàries a través de la prova npm requereix, com a mínim, el node v7.0.0
+
+# **Pruebas del navegador**
+Para ejecutar las pruebas de Selenium a través de Nightwatch, sirve la aplicación a través de un servidor web local:
+npm run serve # inicia el servidor web en localhost: 8080
+Entonces necesitarás:
+1. Tener un servidor Selenium ejecutándose localmente en el puerto 4444.
+  o Ejecutar: npm ejecutar test-browser
+2. O bien, instale y ejecute SauceConnect.
+  o Ejecutar: sc -u <NOMBRE DE USUARIO> -k <ACCESS_KEY> (ver .travis.yml para conocer los valores)
